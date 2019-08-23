@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mesh>
+    <sharedgeometry vertexcount="16">
+        <vertexbuffer normals="true" texture_coords="0" positions="true" colours_diffuse="False">
+            <vertex>
+                <position x="-3.161072" z="3.161072" y="0.000000"/>
+                <normal x="-0.000000" z="-0.000000" y="-1.000000"/>
+            </vertex>
+            <vertex>
+                <position x="-1.000000" z="-1.000000" y="0.000000"/>
+                <normal x="-0.000000" z="-0.000000" y="-1.000000"/>
+            </vertex>
+            <vertex>
+                <position x="3.161072" z="-3.161072" y="0.000000"/>
+                <normal x="-0.000000" z="-0.000000" y="-1.000000"/>
+            </vertex>
+            <vertex>
+                <position x="1.000000" z="1.000000" y="0.000000"/>
+                <normal x="-0.000000" z="-0.000000" y="-1.000000"/>
+            </vertex>
+            <vertex>
+                <position x="1.000000" z="1.000000" y="0.000000"/>
+                <normal x="-0.887208" z="-0.460775" y="0.023416"/>
+            </vertex>
+            <vertex>
+                <position x="3.161072" z="-3.161072" y="0.000000"/>
+                <normal x="-0.887208" z="-0.460775" y="0.023416"/>
+            </vertex>
+            <vertex>
+                <position x="0.000000" z="0.000003" y="-57.566326"/>
+                <normal x="-0.887208" z="-0.460775" y="0.023416"/>
+            </vertex>
+            <vertex>
+                <position x="-1.000000" z="-1.000000" y="0.000000"/>
+                <normal x="0.887208" z="0.460775" y="0.023416"/>
+            </vertex>
+            <vertex>
+                <position x="-3.161072" z="3.161072" y="0.000000"/>
+                <normal x="0.887208" z="0.460775" y="0.023416"/>
+            </vertex>
+            <vertex>
+                <position x="0.000000" z="0.000003" y="-57.566326"/>
+                <normal x="0.887208" z="0.460775" y="0.023416"/>
+            </vertex>
+            <vertex>
+                <position x="3.161072" z="-3.161072" y="0.000000"/>
+                <normal x="0.460775" z="0.887208" y="0.023416"/>
+            </vertex>
+            <vertex>
+                <position x="-1.000000" z="-1.000000" y="0.000000"/>
+                <normal x="0.460775" z="0.887208" y="0.023416"/>
+            </vertex>
+            <vertex>
+                <position x="0.000000" z="0.000003" y="-57.566326"/>
+                <normal x="0.460775" z="0.887208" y="0.023416"/>
+            </vertex>
+            <vertex>
+                <position x="-3.161072" z="3.161072" y="0.000000"/>
+                <normal x="-0.460775" z="-0.887208" y="0.023416"/>
+            </vertex>
+            <vertex>
+                <position x="1.000000" z="1.000000" y="0.000000"/>
+                <normal x="-0.460775" z="-0.887208" y="0.023416"/>
+            </vertex>
+            <vertex>
+                <position x="0.000000" z="0.000003" y="-57.566326"/>
+                <normal x="-0.460775" z="-0.887208" y="0.023416"/>
+            </vertex>
+        </vertexbuffer>
+    </sharedgeometry>
+    <submeshes>
+        <submesh usesharedvertices="true" material="_missing_material_" operationtype="triangle_list" use32bitindexes="False">
+            <faces count="6">
+                <face v2="1" v3="2" v1="0"/>
+                <face v2="2" v3="3" v1="0"/>
+                <face v2="5" v3="6" v1="4"/>
+                <face v2="8" v3="9" v1="7"/>
+                <face v2="11" v3="12" v1="10"/>
+                <face v2="14" v3="15" v1="13"/>
+            </faces>
+        </submesh>
+    </submeshes>
+    <submeshnames>
+        <submesh name="_missing_material_" index="0">
+        </submesh>
+    </submeshnames>
+</mesh>
