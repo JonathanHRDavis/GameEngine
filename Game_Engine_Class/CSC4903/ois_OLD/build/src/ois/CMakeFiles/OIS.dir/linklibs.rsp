@@ -1,1 +1,0 @@
-C:/4903/ois/dx_dinput/lib/libdinput8.a C:/4903/ois/dx_dinput/lib/libdxguid.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

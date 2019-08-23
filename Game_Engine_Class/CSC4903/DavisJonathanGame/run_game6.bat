@@ -2,7 +2,7 @@
 cls
 
 set DRIVE_LETTER=%1:
-set GAME_PATH=%DRIVE_LETTER%/Pre_030119_Folders/GameEngine/Game_Engine_Class/CSC4903
+set GAME_PATH=%DRIVE_LETTER%/GameEngine/Game_Engine_Class/CSC4903
 
 set OGRE_PATH=%GAME_PATH%/Ogre-1.8.1
 set BOOST_PATH=%GAME_PATH%/boost_1_63_0

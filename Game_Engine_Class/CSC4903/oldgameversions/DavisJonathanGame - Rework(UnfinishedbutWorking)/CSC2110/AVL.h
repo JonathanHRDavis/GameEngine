@@ -1,6 +1,0 @@
-#if !defined (AVL_H)
-#define AVL_H
-
-   enum AVL{LEFT_UNBALANCED, LEFT_HEAVY, BALANCED, RIGHT_HEAVY, RIGHT_UNBALANCED};
-
-#endif
