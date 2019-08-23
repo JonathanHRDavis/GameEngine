@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+da829f9fbda3fe165a5b02076be04152 OgreMain/OgreWin32Resources.rc.obj
