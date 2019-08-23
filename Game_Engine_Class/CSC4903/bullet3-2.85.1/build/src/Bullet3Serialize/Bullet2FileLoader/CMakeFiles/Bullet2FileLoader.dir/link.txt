@@ -1,0 +1,2 @@
+C:\TDM-GCC-64\bin\ar.exe qc ..\..\..\lib\libBullet2FileLoader.a  CMakeFiles/Bullet2FileLoader.dir/b3BulletFile.obj CMakeFiles/Bullet2FileLoader.dir/b3Chunk.obj CMakeFiles/Bullet2FileLoader.dir/b3DNA.obj CMakeFiles/Bullet2FileLoader.dir/b3File.obj CMakeFiles/Bullet2FileLoader.dir/b3Serializer.obj
+C:\TDM-GCC-64\bin\ranlib.exe ..\..\..\lib\libBullet2FileLoader.a

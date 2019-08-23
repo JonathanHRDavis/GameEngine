@@ -1,0 +1,2 @@
+C:\TDM-GCC-64\bin\ar.exe qc ..\..\lib\libBullet3Collision.a  CMakeFiles/Bullet3Collision.dir/BroadPhaseCollision/b3DynamicBvh.obj CMakeFiles/Bullet3Collision.dir/BroadPhaseCollision/b3DynamicBvhBroadphase.obj CMakeFiles/Bullet3Collision.dir/BroadPhaseCollision/b3OverlappingPairCache.obj CMakeFiles/Bullet3Collision.dir/NarrowPhaseCollision/b3ConvexUtility.obj CMakeFiles/Bullet3Collision.dir/NarrowPhaseCollision/b3CpuNarrowPhase.obj
+C:\TDM-GCC-64\bin\ranlib.exe ..\..\lib\libBullet3Collision.a

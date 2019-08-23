@@ -1,0 +1,1 @@
+-IC:/CSC4903/bullet3-2.85.1/test/InverseDynamics/. -IC:/CSC4903/bullet3-2.85.1/test/InverseDynamics/../../src -IC:/CSC4903/bullet3-2.85.1/test/InverseDynamics/../gtest-1.7.0/include -IC:/CSC4903/bullet3-2.85.1/test/InverseDynamics/../../Extras/InverseDynamics 

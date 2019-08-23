@@ -1,0 +1,1 @@
+-IC:/CSC4903/bullet3-2.85.1/test/SharedMemory/. -IC:/CSC4903/bullet3-2.85.1/test/SharedMemory/../../src -IC:/CSC4903/bullet3-2.85.1/test/SharedMemory/../gtest-1.7.0/include -IC:/CSC4903/bullet3-2.85.1/test/SharedMemory/../../examples -IC:/CSC4903/bullet3-2.85.1/test/SharedMemory/../../examples/ThirdPartyLibs 
