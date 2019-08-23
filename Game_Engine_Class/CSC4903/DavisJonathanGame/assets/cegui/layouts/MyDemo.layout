@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="DefaultWindow" >
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="TaharezLook/FrameWindow" name="FrameWindow" >
+			<!--  Comments   -->
+            <!-- <Property name="Area" value="{{0.01,0},{0.01,0},{0.4,0},{0.4,0}}" /> -->
+			<Property name="Area" value="{{0.25,0},{0.75,0},{0.75,0},{1.0,0}}" />
+			<Property name="Text" value="SEGA UFO CATCHER" />
+			<Window type="TaharezLook/Button" name="Button" >
+				<Property name="Area" value="{{1,-160},{1,-43},{1,-15},{1,-11}}" />
+				<Property name="Text" value="CLICK ME" />
+			</Window>
+			
+			<Window type="TaharezLook/Button" name="Button2" >
+				<Property name="Area" value="{{1,-375},{1,-43},{1,-230},{1,-11}}" />
+				<Property name="Text" value="SPAWN ELEPHANT " />
+			</Window>
+			
+			<Window type="TaharezLook/Editbox" name="Editbox" >
+				<Property name="Area" value="{{0,10},{0,8},{1,-10},{0,40}}" />
+				<Property name="Text" value="TYPE SOMETHING" />
+			</Window>
+			<Window type="TaharezLook/Combobox" name="Combobox">
+				<Property name="Area" value="{{0,10},{0,45},{1,-10},{0,115}}" />
+				<Property name="Text" value="CHOOSE SOMETHING" />
+			</Window>
+		</Window>
+	</Window>
+</GUILayout>

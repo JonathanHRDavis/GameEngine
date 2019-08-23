@@ -1,0 +1,77 @@
+
+<levels>
+
+	<level>
+		<name>Claw Machine</name>
+		<paths>
+			<path>./assets/models</path>
+			<path>./assets/materials/scripts</path>
+			
+			<path>./assets/cegui/imagesets</path>
+			<path>./assets/cegui/schemes</path>
+			<path>./assets/cegui/fonts</path>
+			<path>./assets/cegui/looknfeel</path>
+			<path>./assets/cegui/layouts</path>
+			<path>./assets/cegui/lua_scripts</path>
+			
+		</paths>
+		
+		<meshes>
+			<mesh>Rod.mesh</mesh>
+			<mesh>Body.mesh</mesh>
+			<mesh>Logo.mesh</mesh>
+			<mesh>Arm_Right.mesh</mesh>
+			<mesh>Arm_Left.mesh</mesh>
+			<mesh>Peg.mesh</mesh>
+			<mesh>Ring.mesh</mesh>
+		</meshes>
+		
+		
+		<audios>
+			<audio>
+				<file>./assets/audio/1-52-final-battle.mp3</file>
+				<type>stream</type>
+				<name>test1</name>
+			</audio>
+			<audio>
+				<file>./assets/audio/Mechanical-Arm.mp3</file>
+				<type>sample</type>
+				<name>test2</name>
+			</audio>
+		</audios>
+		
+	</level>
+	
+	<level>
+		<name>level_0</name>
+		<paths>
+			<path>./assets/models</path>
+			<path>./assets/materials/scripts</path>
+		</paths>
+		
+		<meshes>
+			<mesh>E_MainBody.mesh</mesh>
+			<mesh>E_Left_Ear.mesh</mesh>
+			<mesh>E_Right_Ear.mesh</mesh>
+			<mesh>E_Trunk.mesh</mesh>
+			<mesh>E_Tusks.mesh</mesh>
+		</meshes>
+	</level>
+	
+	<level>
+		<name>level_1</name>
+		<paths>
+			<path>./assets/models</path>
+			<path>./assets/materials/scripts</path>
+		</paths>
+		
+		<meshes>
+			<mesh>E_MainBody.mesh</mesh>
+			<mesh>E_Left_Ear.mesh</mesh>
+			<mesh>E_Right_Ear.mesh</mesh>
+			<mesh>E_Trunk.mesh</mesh>
+			<mesh>E_Tusks.mesh</mesh>
+		</meshes>
+	</level>
+
+</levels>

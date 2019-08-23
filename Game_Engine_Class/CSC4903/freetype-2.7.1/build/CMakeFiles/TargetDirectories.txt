@@ -1,0 +1,10 @@
+E:/4903/freetype-2.7.1/build/CMakeFiles/dist.dir
+E:/4903/freetype-2.7.1/build/CMakeFiles/freetype.dir
+E:/4903/freetype-2.7.1/build/CMakeFiles/edit_cache.dir
+E:/4903/freetype-2.7.1/build/CMakeFiles/package_source.dir
+E:/4903/freetype-2.7.1/build/CMakeFiles/package.dir
+E:/4903/freetype-2.7.1/build/CMakeFiles/install.dir
+E:/4903/freetype-2.7.1/build/CMakeFiles/rebuild_cache.dir
+E:/4903/freetype-2.7.1/build/CMakeFiles/list_install_components.dir
+E:/4903/freetype-2.7.1/build/CMakeFiles/install/strip.dir
+E:/4903/freetype-2.7.1/build/CMakeFiles/install/local.dir
