@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\libexpat.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\libexpat.dir/objects.a @CMakeFiles\libexpat.dir\objects1.rsp
+c:\TDM-GCC-64\bin\gcc.exe   -O3 -DNDEBUG  -shared -o ..\..\..\dependencies\bin\libexpat.dll -Wl,--out-implib,..\..\..\dependencies\lib\dynamic\libexpat.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\libexpat.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\libexpat.dir\linklibs.rsp

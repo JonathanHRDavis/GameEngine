@@ -1,0 +1,1 @@
+ -ldxerr9 -ldinput8 -ldxguid ../lib/libCEGUIDirect3D9Renderer-0.dll.a -ld3d9 ../lib/libCEGUIDirect3D10Renderer-0.dll.a -ld3dx10_43 ../lib/libCEGUIBase-0.dll.a -ld3dx9_43 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

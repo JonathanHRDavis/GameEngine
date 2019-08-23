@@ -1,0 +1,2 @@
+C:\TDM-GCC-64\bin\ar.exe qc ..\..\..\dependencies\lib\static\libexpat.a  CMakeFiles/libexpat_static.dir/__/lib/xmlrole.c.obj CMakeFiles/libexpat_static.dir/__/lib/xmltok.c.obj CMakeFiles/libexpat_static.dir/__/lib/xmlparse.c.obj
+C:\TDM-GCC-64\bin\ranlib.exe ..\..\..\dependencies\lib\static\libexpat.a

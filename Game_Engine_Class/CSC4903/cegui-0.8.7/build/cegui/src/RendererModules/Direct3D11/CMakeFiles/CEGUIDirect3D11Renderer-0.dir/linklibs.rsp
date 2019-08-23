@@ -1,0 +1,1 @@
+../../../../lib/libCEGUIBase-0.dll.a -ld3d11 -ld3dcompiler -ld3dx11 -ld3dx10 -ld3dx10d ../../../../../dependencies/lib/dynamic/libD3DX11Effects.a ../../../../../dependencies/lib/dynamic/libfreetype.dll.a ../../../../../dependencies/lib/dynamic/libpcre.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
