@@ -1,0 +1,314 @@
+
+<scene>
+
+      <camera>
+         <name>Camera</name>
+         <position>0,0,30</position>
+         <look-at>0,0,-1000</look-at>
+         <clip>2,50</clip>
+      </camera>
+
+      <light>
+         <name>Light</name>
+         <color>1,1,1</color>
+         <direction>0,0,-1</direction>
+      </light>
+
+   <graph>
+
+
+	<children>
+		<child>
+		
+			<name>Blue_Elephant</name>
+			
+			<translation>0,0,0</translation>
+			<rotation>180,0,0,0</rotation>
+			<scale>1,1,1</scale>
+			
+			<children>
+				<child>
+				
+				<name>B_Base_Transform</name>
+				
+				<animation>
+					<name>360 Elephant Animation</name>
+					<seconds>20</seconds>
+					
+					<keyframes>
+						<keyframe>
+							<time>0.0</time>
+							<translation>0,3,0</translation>
+							<rotation>90,0,1,0</rotation>
+						</keyframe>
+						<keyframe>
+							<time>2.5</time>
+							<translation>0,3,0</translation>
+							<rotation>135,0,1,0</rotation>
+						</keyframe>
+						<keyframe>
+							<time>5.0</time>
+							<translation>0,3,0</translation>
+							<rotation>180,0,1,0</rotation>
+						</keyframe>
+						<keyframe>
+							<time>7.5</time>
+							<translation>0,3,0</translation>
+							<rotation>225,0,1,0</rotation>
+						</keyframe>
+						<keyframe>
+							<time>10.0</time>
+							<translation>0,3,0</translation>
+							<rotation>270,0,1,0</rotation>
+						</keyframe>
+						<keyframe>
+							<time>12.5</time>
+							<translation>0,3,0</translation>
+							<rotation>315,0,1,0</rotation>
+						</keyframe>
+						<keyframe>
+							<time>15.0</time>
+							<translation>0,3,0</translation>
+							<rotation>360,0,1,0</rotation>
+						</keyframe>
+						<keyframe>
+							<time>17.5</time>
+							<translation>0,3,0</translation>
+							<rotation>405,0,1,0</rotation>
+						</keyframe>
+						<keyframe>
+							<time>20.0</time>
+							<translation>0,3,0</translation>
+							<rotation>450,0,1,0</rotation>
+						</keyframe>
+						
+					</keyframes>
+
+				</animation>
+				
+				<translation>0,3,0</translation>
+				<rotation>90,0,0,0</rotation>
+				<scale>1,1,1</scale>
+				
+				<children>
+					<child>
+					
+						<name>B_Trunk_Transform</name>
+						
+						<animation>
+							<name>Elephant Trunk Animation</name>
+							<seconds>5</seconds>
+
+							<keyframes>
+								<keyframe>
+									<time>0.0</time>
+									<translation>-9.3,1,0.3</translation>
+									<rotation>90,0,0,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>2.5</time>
+									<translation>-9.3,1,0.3</translation>
+									<rotation>90,0,0,1</rotation>
+								</keyframe>
+								<keyframe>
+									<time>5.0</time>
+									<translation>-9.3,1,0.3</translation>
+									<rotation>90,0,0,0</rotation>
+								</keyframe>
+							</keyframes>
+						</animation>
+						
+						<translation>-9.3,1,0.3</translation>
+						<rotation>180,0,0,0</rotation>
+						<scale>1,1,1</scale>
+						
+						<children>
+							<child>
+							
+								<name>B_E_Trunk_Entity</name>
+								<entity>
+									<name>B_E_Trunk</name>
+									<mesh>E_Trunk.mesh</mesh>
+									<material>B_E_Trunk</material>
+								</entity>
+								
+								<translation>0,0,0</translation>
+								<rotation>180,0,0,0</rotation>
+								<scale>1,1,1</scale>
+							
+							</child>
+						</children>
+					
+					</child>
+					<child>
+					
+						<name>B_Left_Ear_Transform</name>
+						
+						<animation>
+							<name>Elephant Left Ear Animation</name>
+							<seconds>10</seconds>
+
+							<keyframes>
+								<keyframe>
+									<time>0.0</time>
+									<translation>-7,3.5,2</translation>
+									<rotation>10,0,0,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>2.5</time>
+									<translation>-7,3.5,2</translation>
+									<rotation>10,0,1,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>5.0</time>
+									<translation>-7,3.5,2</translation>
+									<rotation>10,0,0,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>7.5</time>
+									<translation>-7,3.5,2</translation>
+									<rotation>-10,0,1,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>10.0</time>
+									<translation>-7,3.5,2</translation>
+									<rotation>10,0,0,0</rotation>
+								</keyframe>
+							</keyframes>
+						</animation>
+						
+						<translation>-7,3.5,2</translation>
+						<rotation>180,0,0,0</rotation>
+						<scale>1,1,1</scale>
+						
+						<children>
+							<child>
+							
+								<name>B_E_Left_Ear_Entity</name>
+								<entity>
+									<name>B_E_Left_Ear</name>
+									<mesh>E_Left_Ear.mesh</mesh>
+									<material>B_E_Left_Ear</material>
+								</entity>
+								
+								<translation>0,0,0</translation>
+								<rotation>180,0,0,0</rotation>
+								<scale>1,1,1</scale>
+							
+							</child>
+						</children>
+						
+					
+					</child>
+					<child>
+					
+						<name>B_Right_Ear_Transform</name>
+						
+						<animation>
+							<name>Elephant Right Ear Animation</name>
+							<seconds>10</seconds>
+
+							<keyframes>
+								<keyframe>
+									<time>0.0</time>
+									<translation>-7,3.5,-2</translation>
+									<rotation>10,0,0,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>2.5</time>
+									<translation>-7,3.5,-2</translation>
+									<rotation>10,0,1,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>5.0</time>
+									<translation>-7,3.5,-2</translation>
+									<rotation>10,0,0,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>7.5</time>
+									<translation>-7,3.5,-2</translation>
+									<rotation>-10,0,1,0</rotation>
+								</keyframe>
+								<keyframe>
+									<time>10.0</time>
+									<translation>-7,3.5,-2</translation>
+									<rotation>10,0,0,0</rotation>
+								</keyframe>
+							</keyframes>
+						</animation>
+						
+						<translation>-7,3.5,-2</translation>
+						<rotation>180,0,0,0</rotation>
+						<scale>1,1,1</scale>
+						
+						<children>
+							<child>
+							
+								<name>B_E_Right_Ear_Entity</name>
+								<entity>
+									<name>B_E_Right_Ear</name>
+									<mesh>E_Right_Ear.mesh</mesh>
+									<material>B_E_Right_Ear</material>
+								</entity>
+								
+								<translation>0,0,0</translation>
+								<rotation>180,0,0,0</rotation>
+								<scale>1,1,1</scale>
+							
+							</child>
+						</children>
+						
+					
+					</child>
+					<child>
+					
+						<name>B_Tusks_Transform</name>
+						
+						<translation>-8.9,0.5,-0.5</translation>
+						<rotation>180,0,0,0</rotation>
+						<scale>1,1,1</scale>
+						
+						<children>
+							<child>
+							
+								<name>B_E_Tusks_Entity</name>
+								<entity>
+									<name>B_E_Tusks</name>
+									<mesh>E_Tusks.mesh</mesh>
+									<material>E_Tusks</material>
+								</entity>
+								
+								<translation>0,0,0</translation>
+								<rotation>180,0,0,0</rotation>
+								<scale>1,1,1</scale>
+							
+							</child>
+						</children>
+					
+					</child>
+					<child>
+						
+						<name>B_E_MainBody_Entity</name>
+						<entity>
+							<name>B_E_MainBody</name>
+							<mesh>E_MainBody.mesh</mesh>
+							<material>B_E_MainBody</material>
+						</entity>
+						
+						<translation>0,0,0</translation>
+						<rotation>180,0,0,0</rotation>
+						<scale>1,1,1</scale>
+						
+					</child>
+				</children>
+				
+				
+				</child>
+			</children>
+
+	  
+		</child>
+	</children>
+
+   </graph>
+</scene>
